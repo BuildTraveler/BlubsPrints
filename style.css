@@ -459,92 +459,6 @@ a {
   opacity: 0.7;
 }
 
-/* Contact form */
-.contact-form-block {
-  background: var(--white);
-  border: 3px solid var(--black);
-  padding: 2.5rem;
-}
-
-.contact-form-heading {
-  font-family: var(--font-heading);
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
-  color: var(--black);
-}
-
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  gap: 1.25rem;
-}
-
-.form-group {
-  display: flex;
-  flex-direction: column;
-  gap: 0.4rem;
-}
-
-.form-group label {
-  font-family: var(--font-body);
-  font-weight: 700;
-  font-size: 0.85rem;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-}
-
-.form-group input,
-.form-group textarea {
-  font-family: var(--font-body);
-  font-weight: 500;
-  font-size: 1rem;
-  color: var(--black);
-  background: var(--cream);
-  border: 2px solid var(--black);
-  padding: 0.75rem 1rem;
-  outline: none;
-  transition: border-color 0.15s, box-shadow 0.15s;
-  resize: vertical;
-  border-radius: 0;
-  -webkit-appearance: none;
-}
-
-.form-group input:focus,
-.form-group textarea:focus {
-  border-color: var(--yellow);
-  box-shadow: 4px 4px 0 var(--yellow);
-}
-
-.form-submit {
-  font-family: var(--font-heading);
-  font-size: 1.2rem;
-  color: var(--black);
-  background: var(--yellow);
-  border: 3px solid var(--black);
-  padding: 0.9rem 2.5rem;
-  cursor: pointer;
-  align-self: flex-start;
-  transition: transform 0.1s, box-shadow 0.1s;
-  box-shadow: 4px 4px 0 var(--black);
-}
-
-.form-submit:hover {
-  transform: translate(-2px, -2px);
-  box-shadow: 6px 6px 0 var(--black);
-}
-
-.form-submit:active {
-  transform: translate(2px, 2px);
-  box-shadow: 2px 2px 0 var(--black);
-}
-
-.form-note {
-  margin-top: 1rem;
-  font-family: var(--font-body);
-  font-weight: 700;
-  font-size: 0.95rem;
-}
-
 /* =============================================
    RESPONSIVE — Mobile ≤ 768px
    ============================================= */
@@ -584,17 +498,8 @@ a {
     max-width: 100%;
   }
 
-  .contact-form-block {
-    padding: 1.5rem;
-  }
-
   .contact-info-block {
     display: block;
     padding: 1.5rem;
-  }
-
-  .form-submit {
-    width: 100%;
-    text-align: center;
   }
 }
